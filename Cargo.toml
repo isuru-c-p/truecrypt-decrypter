@@ -1,0 +1,10 @@
+[package]
+name = "truecrypt-decrypter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+binrw = "0.14.0"
+clap = { version = "4.5.18", features = ["derive"] }
+openssl = "0.10.66"
+rpassword = "7.3.1"
